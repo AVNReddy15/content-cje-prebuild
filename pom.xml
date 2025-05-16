@@ -48,6 +48,14 @@
       </properties>
     </profile>
   </profiles>
+<profiles>
+  <profile>
+     <id>properties</id>
+            <properties>
+                <maven.plugin.validation>VERBOSE</maven.plugin.validation>
+            </properties>
+        </profile>
+    </profiles>
 
   <build>
     <defaultGoal>clean package</defaultGoal>
